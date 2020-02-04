@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test input node server</title>
+</head>
+<body>
+	<h1>Assignment Node II.1</h1>
+	<p>Test node server method post</p>
+	<form method="get" action="http://localhost:3000/"> 
+	<!-- 	--	here im using the "Post" method.. combine post with script2.js and u can read the content through the body
+			--	Where if u are using the "Get" method, you are reading it through the header
+			--	To use get method, run script.js
+		-->
+		<label>Username:</label><br>
+		<input type="text" name="name">
+		<br>
+		<label>Lastname:</label><br>
+		<input type="text" name="lastname">
+		<br>
+		<label>Email</label><br>
+		<input type="text" name="email">
+		<br>
+		<input type="submit" name="submit" value="submit">
+	</form>
+</body>
+</html>
+
+
+<!--
+	 console.log("Log: split:\n" + getJSONString(req.url.split(/[&?]/)));
+	Save this for later
+	 -->

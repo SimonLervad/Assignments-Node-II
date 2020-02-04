@@ -1,0 +1,28 @@
+{
+  "name": "Assignments-Node-II",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "http-status-codes": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "checkpoint": "git add .  && git commit -m '.' && git push origin master ",
+    "pretest": "npm install",
+    "test": "node script",
+    "test2": "node script2",
+    "test3": "node script3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLervad/Assignments-Node-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLervad/Assignments-Node-II/issues"
+  },
+  "homepage": "https://github.com/SimonLervad/Assignments-Node-II#readme"
+}
